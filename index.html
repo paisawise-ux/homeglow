@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="HomeGlow — Premium home decor & cleaning essentials delivered to your doorstep. Transform your home with our curated collection of stylish decor and smart cleaning tools.">
+  <meta name="keywords"
+    content="home decor, cleaning products, fan cleaner, mop, home essentials, India, online shopping">
+  <title>HomeGlow — Home Decor & Cleaning Essentials</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#" class="logo">
+        <div class="logo-icon">🏠</div>
+        Home<span>Glow</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+          🛒
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">✨ Free Delivery Across India</div>
+        <h1 class="hero-title">
+          Make Your Home <span class="highlight">Glow</span> With Style
+        </h1>
+        <p class="hero-subtitle">
+          Discover premium home decor & smart cleaning essentials that transform your living space. Quality products,
+          honest prices, delivered to your door.
+        </p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary btn-lg">Shop Now →</a>
+          <a href="https://wa.me/919999999999?text=Hi! I'm interested in HomeGlow products" target="_blank"
+            class="btn btn-whatsapp btn-lg">💬 WhatsApp Us</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Happy Customers</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Products</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">4.8★</div>
+            <div class="stat-label">Avg Rating</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-container">
+          <img src="images/hero.png" alt="Beautiful modern home interior with warm lighting" loading="eager">
+          <div class="floating-card card-1">
+            <div style="font-size:0.8rem;font-weight:600;">🚚 Fast Delivery</div>
+            <div style="font-size:0.7rem;color:var(--text-muted);">3-7 days pan India</div>
+          </div>
+          <div class="floating-card card-2">
+            <div style="font-size:0.8rem;font-weight:600;">⭐ Top Rated</div>
+            <div style="font-size:0.7rem;color:var(--text-muted);">4.8/5 stars</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST FEATURES ===== -->
+  <section class="section reveal" id="features">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🚚</div>
+        <div class="feature-title">Free Delivery</div>
+        <div class="feature-desc">Free shipping on orders above ₹499 across India</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔄</div>
+        <div class="feature-title">Easy Returns</div>
+        <div class="feature-desc">14-day hassle-free return policy</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💳</div>
+        <div class="feature-title">Secure Payment</div>
+        <div class="feature-desc">UPI, Cards, Net Banking & COD available</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💬</div>
+        <div class="feature-title">WhatsApp Support</div>
+        <div class="feature-desc">Quick response within 2 hours</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section class="section reveal" id="categories">
+    <div class="section-header">
+      <div class="section-tag">Browse</div>
+      <h2 class="section-title">Shop by Category</h2>
+      <p class="section-subtitle">Find everything you need to make your home shine</p>
+    </div>
+    <div class="categories-grid">
+      <div class="category-card" data-category="cleaning">
+        <div class="category-icon">🧹</div>
+        <div class="category-name">Cleaning Tools</div>
+        <div class="category-count">Mops, Dusters & more</div>
+      </div>
+      <div class="category-card" data-category="decor">
+        <div class="category-icon">🖼️</div>
+        <div class="category-name">Home Decor</div>
+        <div class="category-count">Shelves, Lamps & more</div>
+      </div>
+      <div class="category-card" data-category="kitchen">
+        <div class="category-icon">🍳</div>
+        <div class="category-name">Kitchen & Organizers</div>
+        <div class="category-count">Racks, Storage & more</div>
+      </div>
+      <div class="category-card" data-category="eco">
+        <div class="category-icon">🌿</div>
+        <div class="category-name">Eco Friendly</div>
+        <div class="category-count">Sustainable essentials</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="section reveal" id="products">
+    <div class="section-header">
+      <div class="section-tag">Our Collection</div>
+      <h2 class="section-title">Featured Products</h2>
+      <p class="section-subtitle">Handpicked essentials to transform your home</p>
+    </div>
+
+    <!-- Filter tabs -->
+    <div style="display:flex;justify-content:center;gap:0.5rem;margin-bottom:2rem;flex-wrap:wrap;">
+      <button class="btn btn-sm filter-btn active" data-filter="all">All</button>
+      <button class="btn btn-sm filter-btn" data-filter="cleaning">Cleaning</button>
+      <button class="btn btn-sm filter-btn" data-filter="decor">Decor</button>
+      <button class="btn btn-sm filter-btn" data-filter="kitchen">Kitchen</button>
+      <button class="btn btn-sm filter-btn" data-filter="eco">Eco Friendly</button>
+    </div>
+
+    <div class="products-grid" id="productsGrid">
+      <!-- Products inserted via JS -->
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section reveal" id="testimonials">
+    <div class="section-header">
+      <div class="section-tag">Real Reviews</div>
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="section-subtitle">Trusted by 500+ happy homes across India</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"The ceiling fan cleaner is a game changer! So easy to use and my fans have never
+          looked this clean. Fast delivery too — ordered on Monday, got it by Thursday."</div>
+        <div class="testimonial-author">
+          <div class="author-avatar">PK</div>
+          <div>
+            <div class="author-name">Priya K.</div>
+            <div class="author-location">Bangalore</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"Bought the floating shelf set and the LED lamp — both look absolutely premium. My
+          friends thought they were from a fancy boutique! Great value for money."</div>
+        <div class="testimonial-author">
+          <div class="author-avatar">RS</div>
+          <div>
+            <div class="author-name">Rahul S.</div>
+            <div class="author-location">Mumbai</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"The spin mop is amazing quality and the eco-friendly spray bottles look so good
+          on my counter. HomeGlow is now my go-to for home essentials. Highly recommended!"</div>
+        <div class="testimonial-author">
+          <div class="author-avatar">AM</div>
+          <div>
+            <div class="author-name">Anita M.</div>
+            <div class="author-location">Delhi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section reveal" id="about">
+    <div class="section-header">
+      <div class="section-tag">Our Story</div>
+      <h2 class="section-title">About HomeGlow</h2>
+    </div>
+    <div style="max-width:700px;margin:0 auto;text-align:center;">
+      <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:1.5rem;">
+        HomeGlow was born from a simple idea — every home deserves to look beautiful and feel spotless, without spending
+        a fortune. We curate the best home decor pieces and smart cleaning tools from trusted manufacturers across
+        India.
+      </p>
+      <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:1.5rem;">
+        No middlemen, no unnecessary markups. Just quality products delivered straight to your doorstep at prices that
+        make sense. We believe that a clean, well-decorated home isn't a luxury — it's a right.
+      </p>
+      <p style="color:var(--text-muted);font-size:0.9rem;">
+        Based in India 🇮🇳 • Serving pan-India • 500+ happy customers
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section reveal" id="contact">
+    <h2 class="cta-title">Ready to Transform Your Home?</h2>
+    <p class="cta-text">Browse our collection or chat with us on WhatsApp for personalized recommendations. We're here
+      to help!</p>
+    <div class="cta-actions">
+      <a href="#products" class="btn btn-primary btn-lg">Browse Products</a>
+      <a href="https://wa.me/919999999999?text=Hi! I'd like to know more about HomeGlow products" target="_blank"
+        class="btn btn-whatsapp btn-lg">💬 Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <div class="logo-icon">🏠</div>
+          Home<span>Glow</span>
+        </a>
+        <p class="footer-desc" style="margin-top:1rem;">
+          Premium home decor & cleaning essentials delivered to your doorstep. Making every home glow, one product at a
+          time.
+        </p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-column">
+        <h4>Policies</h4>
+        <a href="#"
+          onclick="alert('Shipping Policy: Free delivery on orders above ₹499. Standard delivery in 3-7 business days across India.')">Shipping
+          Policy</a>
+        <a href="#"
+          onclick="alert('Return Policy: Easy 14-day returns. Contact us via WhatsApp to initiate a return.')">Return
+          Policy</a>
+        <a href="#"
+          onclick="alert('Privacy Policy: We respect your privacy. Your data is only used for order processing and is never shared with third parties.')">Privacy
+          Policy</a>
+        <a href="#"
+          onclick="alert('Terms of Service: By using HomeGlow, you agree to our standard e-commerce terms. All products are subject to availability.')">Terms
+          of Service</a>
+      </div>
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <a href="https://wa.me/919999999999" target="_blank">💬 WhatsApp</a>
+        <a href="mailto:hello@homeglow.online">📧 hello@homeglow.online</a>
+        <a href="https://instagram.com/homeglow.online" target="_blank">📸 Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 HomeGlow. All rights reserved.</p>
+      <div class="payment-methods">
+        <span class="payment-icon">UPI</span>
+        <span class="payment-icon">VISA</span>
+        <span class="payment-icon">MC</span>
+        <span class="payment-icon">COD</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== CART SIDEBAR ===== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>🛒 Your Cart</h3>
+      <button class="cart-close" id="cartClose">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty">
+        <div class="cart-empty-icon">🛒</div>
+        <p>Your cart is empty</p>
+        <p style="font-size:0.8rem;margin-top:0.5rem;">Add some products to get started!</p>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none;">
+      <div class="cart-total">
+        <span class="cart-total-label">Total</span>
+        <span class="cart-total-price" id="cartTotal">₹0</span>
+      </div>
+      <button class="btn btn-primary" style="width:100%;" id="proceedCheckoutBtn">Proceed to Checkout →</button>
+      <button class="btn btn-secondary" style="width:100%;margin-top:0.5rem;" id="clearCartBtn">Clear Cart</button>
+    </div>
+  </aside>
+
+  <!-- ===== PRODUCT MODAL ===== -->
+  <div class="product-modal-overlay" id="productModal">
+    <div class="product-modal">
+      <div class="modal-image">
+        <img id="modalImage" src="" alt="Product">
+      </div>
+      <div class="modal-details">
+        <button class="modal-close" id="modalClose"
+          style="position:relative;top:0;right:0;align-self:flex-end;">✕</button>
+        <div class="modal-category" id="modalCategory"></div>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-price" id="modalPrice"></div>
+        <p class="modal-description" id="modalDescription"></p>
+        <ul class="modal-features" id="modalFeatures"></ul>
+        <div class="modal-actions">
+          <button class="btn btn-primary btn-lg" id="modalAddToCart">🛒 Add to Cart</button>
+          <a id="modalWhatsapp" href="#" target="_blank" class="btn btn-whatsapp">💬 Order on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CHECKOUT OVERLAY ===== -->
+  <div class="checkout-overlay" id="checkoutOverlay">
+    <div class="checkout-container" id="checkoutContainer">
+      <!-- Filled by JS -->
+    </div>
+  </div>
+
+  <!-- ===== WHATSAPP FLOAT ===== -->
+  <a href="https://wa.me/919999999999?text=Hi! I'm browsing HomeGlow and have a question" target="_blank"
+    class="whatsapp-float" aria-label="Chat on WhatsApp">
+    💬
+  </a>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast">
+    <span>✓</span>
+    <span id="toastMsg">Added to cart!</span>
+  </div>
+
+  <!-- Razorpay SDK -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
