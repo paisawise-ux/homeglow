@@ -153,7 +153,7 @@ const CONFIG = {
   // ---- GOOGLE SHEETS (Order Tracking) ----
   // Follow setup instructions in google-sheets-script.js
   // After deploying, paste the Web App URL here:
-  googleSheetURL: "",
+  googleSheetURL: "https://script.google.com/macros/s/AKfycbz4r9fc4Sb9ZVt-f6Yeoee7zvQPss0I1VmRBcPP8R7_DPgguZ1KCbTJT0fVy_jF9wMJ/exec",
 
   // ---- WHATSAPP ----
   whatsappNumber: "919999999999",
